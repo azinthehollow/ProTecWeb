@@ -8,7 +8,7 @@ body {
   font-family: 'Yanone Kaffeesatz', sans-serif, 'Droid Serif', 'Verdana';
   background-image: url('../img/fondo_principal.jpg');
   background-attachment: fixed;
-  background-position: top;
+  background-position: center;
   background-repeat: no-repeat;
 }
 h1, h2, h3 {
