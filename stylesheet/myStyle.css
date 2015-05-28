@@ -6,7 +6,8 @@ body {
   padding: 0;
   background-color: #000000;
   font-family: 'Yanone Kaffeesatz', sans-serif, 'Droid Serif', 'Verdana';
-  background-image: url('img/fondo_principal.jpeg');
+  background-image: url('../img/fondo_principal.jpg');
+  background-attachment: fixed;
   background-position: top;
   background-repeat: repeat-y;
 }
@@ -34,7 +35,7 @@ a:hover {
 }
 #contenido {
   width: 1200px;
-  background-color: #178701;
+  //*background-color: #178701;*//
   border-style: groove; border-width: 4px;
   border-radius:5px;
   margin: 25px auto;
