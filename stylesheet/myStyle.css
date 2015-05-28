@@ -9,7 +9,7 @@ body {
   background-image: url('../img/fondo_principal.jpg');
   background-attachment: fixed;
   background-position: top;
-  background-repeat: repeat-y;
+  background-repeat: no-repeat;
 }
 h1, h2, h3 {
   margin: 0;
