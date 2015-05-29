@@ -29,6 +29,10 @@ h2 {
 p, ul {
   margin-top: 0;
 }
+dt{
+  font-weight: bold;
+  color: rgba(191, 238, 4, 0.72);
+}
 p {
   line-height: 180%;
 }
