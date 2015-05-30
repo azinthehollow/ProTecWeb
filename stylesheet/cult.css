@@ -51,11 +51,11 @@ a:hover {
   margin: 25px auto;
 }
 header {
-  height: 150px;
-  background-color: #934b0b;
-  background-image: url(../images/toonlink.png);
-  background-size: 350px;
-  background-position: 110%;
+  height: 125px;
+ background-color: #1d9f7c;
+  background-image: url(../img/ancobo.png);
+  background-size: 450px;
+  background-position: left;
   background-repeat: no-repeat;
 }
 #Titulo {
@@ -65,17 +65,15 @@ header {
   top: 100px;
   border:none;
 }
-header {
-  height: 150px;
- background-color: #1d9f7c;
-  background-image: url(../img/ancobo.png);
-  background-size: 350px;
-  background-position: left;
-  background-repeat: no-repeat;
+header a:hover {
+  border-radius:5px;
+  border-top: 2px solid #e6480a;
+  border-left: 2px solid #e6480a;
+  border-right: 2px solid #e6480a;
 }
 nav {
   float: right;
-  width: 60%;
+  width: 70%;
 }
 nav ul {
   list-style: none;
