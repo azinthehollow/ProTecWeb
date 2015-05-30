@@ -1,167 +1,19 @@
-html, body {
-  height: 100%;
-}
-body {
-  margin: 0;
-  padding: 0;
-  background-color: #1d9f7c;
-  font-family: 'Yanone Kaffeesatz', sans-serif, 'Droid Serif', 'Verdana';
-  background-image: url('../img/fondo_principal.jpg');
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: repeat-x;
-}
-h1, h2, h3 {
-  margin: 0;
-  padding: 0;
-  text-transform: uppercase;
-  font-weight: 500;
-}
-h2 {
-  font-size: 3.0 em;
-  color: rgb(48, 14, 131)
-
-}
-#bi{
-  font-size: 5 em;
-  color:
-}
-p, ul {
-  margin-top: 0;
-}
-dt{
-  font-weight: bold;
-  color: rgba(191, 238, 4, 0.72);
-}
-p {
-  line-height: 180%;
-}
-strong, a {
-  color: #2c2c2c;
-}
-
-a:hover {
-  text-decoration: none;
-}
-#contenido {
-  width: 1200px;
-  //*background-color: #178701;*//
-  border-style: groove; border-width: 4px;
-  border-radius:5px;
-  margin: 25px auto;
-}
-header {
-  height: 125px;
- background-color: #1d9f7c;
-  background-image: url(../img/ancobo.png);
-  background-size: 450px;
-  background-position: left;
-  background-repeat: no-repeat;
-}
-#Titulo {
-  text-decoration: none;
-  margin: 0 0 0 170px;
-  position: relative;
-  top: 100px;
-  border:none;
-}
-header a:hover {
-  border-radius:5px;
-  border-top: 2px solid #e6480a;
-  border-left: 2px solid #e6480a;
-  border-right: 2px solid #e6480a;
-}
-nav {
-  float: right;
-  width: 70%;
-}
-nav ul {
-  list-style: none;
-  margin: 70px 0 0 120px;
-}
-nav li {
-  display: inline;
-}
-nav a {
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  margin: 0 15px;
-  padding: 0 3px 20px;
-  text-decoration: none;
-  color: #fff;
-  background-color: #14e2aa;
-  border-top: 2px solid #14e2aa;
-  border-left: 2px solid #14e2aa;
-  border-right: 2px solid #14e2aa;
-  border-bottom: 2px solid #14e2aa;
-  border-radius:5px ;
-}
-#SecPr {
-  width: 1100px;
-  margin: 10 50px;
-  overflow: hidden;
-}
-#ArtPr {
-  float: left;
-  width: 750px;
-  background: rgba(199, 169, 207, 0.44);
-  font-size: 20px;
-}
-aside {
-  float: right;
-  width: 300px;
-}
-#ContExt{
-  margin: 0 15px;
-  padding: 0 3px 20px;
-  text-decoration: none;
-  color: #fff;
-  border:2px solid #753e02;
-  border-radius:8px;
-  background-image: url(../images/zelda1.png);
-  background-color: #753e02;
-  background-size: 350px;
-  background-position: 10%;
-  background-repeat: no-repeat;
-}
-#ContExt ul a{
-  background-color: rgba(135, 59, 9, 0.78);
-  text-decoration: none;
-  color:rgb(243, 181, 81);
-  border-radius:8px;
-}
-#SecOtr {
-  overflow: hidden;
-  margin: 0 50px 10px;
-  padding-top: 50px;
-}
 #ArtOne {
-  float: left;
-  width: 300px;
+
   background-color: rgba(232, 14, 27, 0.72);
   border:2px dotted #2653b6;
-  border-radius:8px;
+
 }
 #ArtTwo {
-  float: left;
-  width: 400px;
+
   margin-left: 50px;
   background-color: rgba(232, 14, 27, 0.72);
   border:2px dotted #2653b6;
-  border-radius:8px;
+
 }
 #ArtThr {
-  float: right;
-  width: 300px;
+
   background-color: rgba(232, 14, 27, 0.72);
   border:2px dotted #2653b6;
-  border-radius:8px;
-}
-footer {
-  margin: 0 50px;
-  padding: 30px 0;
-  border-top: 5px solid #000;
-}
-footer p {
-  text-align: center;
+
 }
