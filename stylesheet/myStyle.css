@@ -19,11 +19,12 @@ h1, h2, h3 {
 }
 h2 {
   font-size: 3.0 em;
-  color: rgb(48, 14, 131)
+  color: rgb(48, 14, 131);
 }
-#bi {
+#TiPr {
   font-size: 5 em;
-  color:
+  color: rgb(32, 249, 13);
+
 }
 p, ul {
   margin-top: 0;
@@ -103,12 +104,6 @@ nav a {
   padding-top: 40px;
   overflow: hidden;
 }
-#ArtPr {
-  float: left;
-  width: 750px;
-  background: rgba(199, 169, 207, 0.44);
-  font-size: 20px;
-}
 aside {
   float: right;
   width: 300px;
@@ -136,6 +131,13 @@ aside {
   overflow: hidden;
   margin: 0 50px 10px;
   padding-top: 50px;
+}
+#ArtPr {
+  float: left;
+  width: 750px;
+  background: rgba(199, 169, 207, 0.44);
+  font-size: 45px;
+  color: rgb(0, 255, 232);
 }
 #ArtOne {
   float: left;
