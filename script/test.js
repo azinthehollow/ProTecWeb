@@ -36,6 +36,46 @@ $(document).ready(function(e) {
                   var n1 = $("input:radio[name=pregunta6]:checked").val();
                   sum += parseFloat(n1);
                }
+               // Grupo 7
+               if ($("input:radio[name=pregunta7]").is(':checked')) {
+                  var n1 = $("input:radio[name=pregunta7]:checked").val();
+                  sum += parseFloat(n1);
+               }
+               // Grupo 8
+               if ($("input:radio[name=pregunta8]").is(':checked')) {
+                  var n1 = $("input:radio[name=pregunta8]:checked").val();
+                  sum += parseFloat(n1);
+               }
+               // Grupo 9
+               if ($("input:radio[name=pregunta9]").is(':checked')) {
+                  var n1 = $("input:radio[name=pregunta9]:checked").val();
+                  sum += parseFloat(n1);
+               }
+               // Grupo 10
+               if ($("input:radio[name=pregunta10]").is(':checked')) {
+                  var n1 = $("input:radio[name=pregunta10]:checked").val();
+                  sum += parseFloat(n1);
+               }
+               // Grupo 11
+               if ($("input:radio[name=pregunta10]").is(':checked')) {
+                  var n1 = $("input:radio[name=pregunta10]:checked").val();
+                  sum += parseFloat(n1);
+               }
+               // Grupo 12
+               if ($("input:radio[name=pregunta12]").is(':checked')) {
+                  var n1 = $("input:radio[name=pregunta12]:checked").val();
+                  sum += parseFloat(n1);
+               }
+               // Grupo 13
+               if ($("input:radio[name=pregunta13]").is(':checked')) {
+                  var n1 = $("input:radio[name=pregunta13]:checked").val();
+                  sum += parseFloat(n1);
+               }
+               // Grupo 14
+               if ($("input:radio[name=pregunta14]").is(':checked')) {
+                  var n1 = $("input:radio[name=pregunta14]:checked").val();
+                  sum += parseFloat(n1);
+               }
 
 
 
