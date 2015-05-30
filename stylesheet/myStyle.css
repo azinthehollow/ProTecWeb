@@ -138,23 +138,23 @@ aside {
 #ArtOne {
   float: left;
   width: 300px;
-  background-color: #753e02;
-  border:2px solid #753e02;
+  background-color: rgba(15, 194, 183, 0.72);
+  border:2px dotted #b64426;
   border-radius:8px;
 }
 #ArtTwo {
   float: left;
   width: 400px;
   margin-left: 50px;
-  background-color: #753e02;
-  border:2px solid #753e02;
+  background-color: rgba(15, 194, 183, 0.72);
+  border:2px dotted #b64426;
   border-radius:8px;
 }
 #ArtThr {
   float: right;
   width: 300px;
-  background-color: #753e02;
-  border:2px solid #753e02;
+  background-color: rgba(15, 194, 183, 0.72);
+  border:2px dotted #b64426;
   border-radius:8px;
 }
 footer {
