@@ -51,7 +51,7 @@ a:hover {
   margin: 25px auto;
 }
 header {
-  height: 125px;
+  height: 130px;
  background-color: #1d9f7c;
   background-image: url(../img/ancobo.png);
   background-size: 450px;
@@ -96,6 +96,7 @@ nav a {
   border-bottom: 2px solid #14e2aa;
   border-radius:5px ;
 }
+
 #SecPr {
   width: 1100px;
   margin: 10 50px;
