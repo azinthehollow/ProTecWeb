@@ -2,13 +2,11 @@
   float: right;
   width: 500px;
   background-color: rgba(23, 24, 255, 0.62);
-  border:2px dotted rgb(207, 14, 25);
-
+  border: 2px dotted rgb(207, 14, 25);
 }
 #ArtTwo {
   float: left;
   width: 520px;
   background-color: rgba(23, 24, 255, 0.62);
-  border:2px dotted rgb(207, 14, 25);
-
+  border: 2px dotted rgb(207, 14, 25);
 }

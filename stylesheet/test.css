@@ -1,28 +1,26 @@
 #ArtOne {
   float: right;
   background-color: rgba(143, 35, 175, 0.78);
-  border:2px dotted #eba113;
-  
-
+  border: 2px dotted #eba113;
 }
 #ArtTwo {
   float: right;
   margin-right: 50px;
   background-color: rgba(143, 35, 175, 0.78);
-  border:2px dotted #eba113;
-
+  border: 2px dotted #eba113;
 }
 #ArtThr {
   background-color: rgba(143, 35, 175, 0.78);
-  border:2px dotted #eba113;
+  border: 2px dotted #eba113;
   width: 300;
   padding: 50%, 50%;
   position: fixed;
-
   /*position: static;*/
 }
-#resultado{
+#resultado {
   background-color: rgba(143, 35, 175, 0.78);
   color: rgb(0, 255, 224);
-
+  border: none;
+  width: 40px;
+  font-size: 2em;
 }
