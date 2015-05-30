@@ -103,6 +103,8 @@ nav a {
 #ArtPr {
   float: left;
   width: 750px;
+  background: rgba(199, 169, 207, 0.44);
+  font-size: 20px;
 }
 aside {
   float: right;
@@ -130,16 +132,16 @@ aside {
 #ArtOne {
   float: right;
   width: 500px;
-  background-color: #753e02;
-  border:2px solid #753e02;
+  background-color: rgba(23, 24, 255, 0.62);
+  border:2px dotted rgb(207, 14, 25);
   border-radius:8px;
 }
 #ArtTwo {
   float: left;
   width: 520px;
   margin-left: 50px;
-  background-color: #753e02;
-  border:2px solid #753e02;
+  background-color: rgba(23, 24, 255, 0.62);
+  border:2px dotted rgb(207, 14, 25);
   border-radius:8px;
 }
 
