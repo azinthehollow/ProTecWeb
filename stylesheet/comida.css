@@ -1,3 +1,10 @@
+#contenido{
+ background-image: url("../img/23.png");
+ background-attachment: fixed;
+   background-position: center bottom;
+   background-repeat: no-repeat;
+
+}
 #ArtOne {
   float: left;
 
@@ -15,7 +22,7 @@
 }
 #ArtThr {
   float: right;
-  
+
   background-color: rgba(48, 196, 11, 0.75);
   border: 2px dotted #dfb41a;
   border-radius: 8px;
