@@ -4,7 +4,8 @@ html, body {
 body {
   margin: 0;
   padding: 0;
-  background-color: rgb(255, 85, 13);
+  background-color: #ff550d;
+
     font-family: 'Yanone Kaffeesatz', sans-serif, 'Droid Serif', 'Verdana';
   background-image: url('../img/fondo_principal.jpg');
   background-attachment: fixed;
