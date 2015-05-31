@@ -12,6 +12,7 @@
   <script type="text/javascript" src="script/lib/jquery-1.11.3.min.js"></script>
   <script type="text/javascript" src="script/menu.js"></script>
   <script type="text/javascript" src="script/test.js"></script>
+  <script type="text/javascript" src="script/elevator.js"></script>
 </head>
 
 <body>
@@ -271,6 +272,9 @@
       <p>
         Copyright (c) 2015 Ricardo Peña De La Rosa 282077 y Sergio Armando Rodriguez Nava 281854. Todos los derechos reservados.
       </p>
+      <p>
+        <img class="elevator-button" src="img/flecha.png" alt="arriba"/>
+      </p>
     </footer>
   </div>
   <!-- Script para añadir chat de chatango a la pagina -->
@@ -302,6 +306,18 @@
         "cnrs": "0.35"
       }
     }
+  </script>
+  <!-- Script para añadir elevador a la pagina -->
+  <script>
+    // Elevator script included on the page, already.
+    window.onload = function() {
+      var elevator = new Elevator({
+        element: document.querySelector('.elevator-button'),
+        mainAudio: '/src/to/audio.mp3',
+        endAudio: '/src/to/end-audio.mp3'
+      });
+    }
+    elevator.elevate();
   </script>
 </body>
 
