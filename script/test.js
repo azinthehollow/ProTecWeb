@@ -1,7 +1,7 @@
 $(document).ready(function(e) {
 
   $('#testFrm').change(function() {
-
+//declaracion de variables
     var obj = {};
     var string = '';
     var sum = 0;
@@ -78,7 +78,7 @@ $(document).ready(function(e) {
     }
 
 
-
+//imprecion del resultado de la suma 
     $('#resultado').val(sum);
 
   });
