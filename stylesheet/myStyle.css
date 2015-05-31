@@ -49,13 +49,15 @@ a:hover {
   margin: 0 auto;
 }
 header {
-  height: 130px;
+  height: 115px;
   background-color: #1d9f7c;
   background-image: url(../img/ancobo.png);
-  background-size: 450px;
+  background-size: 400px;
   background-position: left;
   background-repeat: no-repeat;
   padding-bottom: 23px;
+
+
 }
 #Titulo {
   text-decoration: none;
@@ -74,10 +76,12 @@ header a:hover {
 nav {
   float: right;
   width: 70%;
+  margin-left: 40px;
 }
 nav ul {
   list-style: none;
-  margin: 70px 0 0 120px;
+  width: auto;
+  margin: 70px 0 0 80px;
 }
 nav li {
   display: inline;
@@ -85,8 +89,8 @@ nav li {
 nav a {
   text-transform: uppercase;
   letter-spacing: 1px;
-  margin: 0 15px;
-  padding: 0 3px 20px;
+  margin: 0 5px;
+  padding: 10px 3px 10px;
   text-decoration: none;
   color: #fff;
   background-color: #14e2aa;
@@ -94,7 +98,7 @@ nav a {
   border-left: 2px solid #14e2aa;
   border-right: 2px solid #14e2aa;
   border-bottom: 2px solid #14e2aa;
-  border-radius: 5px;
+  border-radius: 8px;
 }
 #SecPr {
   width: 95%;
