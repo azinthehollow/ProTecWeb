@@ -8,6 +8,10 @@
   margin-right: 50px;
   background-color: rgba(143, 35, 175, 0.78);
   border: 2px dotted #eba113;
+
+}
+#ArtTwo legend{
+  font-size: 3em;
 }
 #ArtThr {
   background-color: rgba(143, 35, 175, 0.78);
@@ -15,7 +19,7 @@
   width: 300;
   padding: 50%, 50%;
   position: fixed;
-  /*position: static;*/
+
 }
 #resultado {
   background-color: rgba(143, 35, 175, 0.78);

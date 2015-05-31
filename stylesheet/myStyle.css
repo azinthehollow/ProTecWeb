@@ -155,6 +155,9 @@ aside {
 #SecOtr ul {
   padding-right: 30px;
 }
+#SecOtr h1{
+  font-size: 3em;
+}
 #ArtOne {
   float: left;
   width: 30%;

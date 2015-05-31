@@ -10,7 +10,10 @@
   background-color: rgba(250, 23, 255, 0.52);
   border: 2px dotted rgb(207, 14, 25);
 }
-p
-{
-  color: rgb(0, 0, 0)
+#SecOtr p{
+  color: #acfbf2;
+}
+#SecOtr h1{
+  color: #acfbf2;
+  font-size: 3em;
 }
