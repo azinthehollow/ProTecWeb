@@ -4,8 +4,8 @@ html, body {
 body {
   margin: 0;
   padding: 0;
-  background-color: #1d9f7c;
-  font-family: 'Yanone Kaffeesatz', sans-serif, 'Droid Serif', 'Verdana';
+  background-color: rgb(255, 85, 13);
+    font-family: 'Yanone Kaffeesatz', sans-serif, 'Droid Serif', 'Verdana';
   background-image: url('../img/fondo_principal.jpg');
   background-attachment: fixed;
   background-position: center;
@@ -50,7 +50,7 @@ a:hover {
 }
 header {
   height: 115px;
-  background-color: #1d9f7c;
+  background-color: rgb(255, 85, 13);
   background-image: url(../img/ancobo.png);
   background-size: 400px;
   background-position: left;
