@@ -187,4 +187,8 @@ footer {
 }
 footer p {
   text-align: center;
+  color: #fff;
+}
+.elevator-button{
+  padding-left: 50%;
 }
