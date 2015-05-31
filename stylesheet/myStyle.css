@@ -6,7 +6,7 @@ body {
   padding: 0;
   background-color: #ff550d;
 
-    font-family: 'Yanone Kaffeesatz', sans-serif, 'Droid Serif', 'Verdana';
+  font-family:  'Droid Serif','Yanone Kaffeesatz', sans-serif, 'Verdana';
   background-image: url('../img/fondo_principal.jpg');
   background-attachment: fixed;
   background-position: center;
