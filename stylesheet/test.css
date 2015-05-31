@@ -3,15 +3,28 @@
   background-color: rgba(143, 35, 175, 0.78);
   border: 2px dotted #eba113;
 }
+#ArtOne dd {
+  color: #acfbf2;
+}
+#ArtOne dt{
+  color: rgb(0, 255, 224);
+}
 #ArtTwo {
   float: right;
   margin-right: 50px;
   background-color: rgba(143, 35, 175, 0.78);
   border: 2px dotted #eba113;
-
 }
-#ArtTwo legend{
+#ArtTwo legend {
   font-size: 3em;
+}
+#ArtTwo label {
+  font-size: 1em;
+  color: #acfbf2;
+}
+#ArtTwo p {
+  font-size: 1.5em;
+  color: rgb(0, 255, 224);
 }
 #ArtThr {
   background-color: rgba(143, 35, 175, 0.78);
@@ -19,7 +32,9 @@
   width: 300;
   padding: 50%, 50%;
   position: fixed;
-
+}
+#ArtThr p{
+  color: rgb(0, 255, 224);
 }
 #resultado {
   background-color: rgba(143, 35, 175, 0.78);
