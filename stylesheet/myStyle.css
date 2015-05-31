@@ -125,21 +125,18 @@ aside {
   float: right;
   width: 300px;
 }
-#ContExt {
+#ContEx {
   margin: 0 15px;
   padding: 0 3px 20px;
   width: 20%;
   text-decoration: none;
   color: #fff;
-  border: 2px solid #753e02;
   border-radius: 8px;
-  /*background-image: url();*/
-  background-color: #753e02;
   background-size: 350px;
   background-position: 10%;
   background-repeat: no-repeat;
 }
-#ContExt ul a {
+#ContEx ul a {
   background-color: rgba(135, 59, 9, 0.78);
   text-decoration: none;
   color: rgb(243, 181, 81);

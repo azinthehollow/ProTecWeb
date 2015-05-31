@@ -9,12 +9,13 @@
   <link rel="stylesheet" href="stylesheet/myStyle.css">
   <link rel="stylesheet" href="stylesheet/menuFijo.css">
   <link rel="stylesheet" href="stylesheet/index.css">
+  <link rel="stylesheet" href="stylesheet/player.css">
   <script type="text/javascript" src="script/lib/jquery-1.11.3.min.js"></script>
   <script type="text/javascript" src="script/menu.js"></script>
   <script type="text/javascript" src="script/chat.js"></script>
-  <script type="text/javascript" src="script/elevator.js"></script>
-
-
+<script type="text/javascript" src="script/elevator.js"></script>
+<script type="text/javascript" src="script/lib/sdkSounCloud.js"></script>
+  <script type="text/javascript" src="script/player.js"></script>
 </head>
 
 <body>
@@ -37,11 +38,40 @@
 
 
       </article>
-      <aside id="ContExt">
-        <h1>Espacio para api</h1>
-
+      <aside id="ContEx">
+        <div id="player_artwork">
+          <a href="javascript:void(0);">
+            <img src="http://placehold.it/200x200" alt="artwork" />
+          </a>
+        </div>
+        <div id="player_track">
+          <div id="player_track_title">
+            <a href="">Track Title</a>
+          </div>
+          <div id="player_track_artist">
+            Artist
+          </div>
+        </div>
+        <div id="player_buttons">
+          <ul>
+            <li>
+              <a href="" id="player_prev">
+                <span class="icon-to-start"></span>
+              </a>
+            </li>
+            <li>
+              <a href="" id="player_play">
+                <span class="icon-play"></span>
+              </a>
+            </li>
+            <li>
+              <a href="" id="player_next">
+                <span class="icon-to-end"></span>
+              </a>
+            </li>
+          </ul>
+        </div>
       </aside>
-
     </section>
     <!--Contenido-->
     <section id="SecOtr">
@@ -76,7 +106,7 @@
 
     </section>
     <p>
-      <img class="elevator-button" src="img/flecha.png" alt="arriba"/>
+      <img class="elevator-button" src="img/flecha.png" alt="arriba" />
     </p>
     <footer>
 
