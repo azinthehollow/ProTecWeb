@@ -44,5 +44,5 @@
   font-size: 2em;
 }
 #contenido{
-background-image: url(.../img/yoko.png);
+background-image: url("../img/yoko.png");
 }
