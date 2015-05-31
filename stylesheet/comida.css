@@ -1,13 +1,13 @@
 #ArtOne {
   float: left;
-  width: 300px;
+
   background-color: rgba(48, 196, 11, 0.75);
   border: 2px dotted #dfb41a;
   border-radius: 8px;
 }
 #ArtTwo {
   float: left;
-  width: 400px;
+
   margin-left: 50px;
   background-color: rgba(48, 196, 11, 0.75);
   border: 2px dotted #dfb41a;
@@ -15,7 +15,7 @@
 }
 #ArtThr {
   float: right;
-  width: 300px;
+  
   background-color: rgba(48, 196, 11, 0.75);
   border: 2px dotted #dfb41a;
   border-radius: 8px;

@@ -97,11 +97,18 @@ nav a {
   border-radius: 5px;
 }
 #SecPr {
-  width: 1200px;
+  width: 95%;
   height: auto;
   margin: 10px, 50px;
   padding-top: 40px;
   overflow: hidden;
+}
+#ArtPr {
+  float: left;
+  width: 75%;
+  background: rgba(199, 169, 207, 0.44);
+  font-size: 45px;
+  color: rgb(0, 255, 232);
 }
 aside {
   float: right;
@@ -110,6 +117,7 @@ aside {
 #ContExt {
   margin: 0 15px;
   padding: 0 3px 20px;
+  width: 20%;
   text-decoration: none;
   color: #fff;
   border: 2px solid #753e02;
@@ -128,34 +136,32 @@ aside {
 }
 #SecOtr {
   overflow: hidden;
-  margin: 0 50px 10px;
   padding-top: 50px;
+  padding-bottom: 50px;
+  width: 95%;
+  margin: 10px 30px;
 }
-#ArtPr {
-  float: left;
-  width: 750px;
-  background: rgba(199, 169, 207, 0.44);
-  font-size: 45px;
-  color: rgb(0, 255, 232);
+#SecOtr ul {
+  padding-right: 30px;
 }
 #ArtOne {
   float: left;
-  width: 300px;
+  width: 30%;
   background-color: rgba(15, 194, 183, 0.72);
   border: 2px dotted #b64426;
   border-radius: 8px;
 }
 #ArtTwo {
   float: left;
-  width: 400px;
-  margin-left: 50px;
+  width: 30%;
   background-color: rgba(15, 194, 183, 0.72);
   border: 2px dotted #b64426;
   border-radius: 8px;
+  margin-left: 50px;
 }
 #ArtThr {
   float: right;
-  width: 300px;
+  width: 30%;
   background-color: rgba(15, 194, 183, 0.72);
   border: 2px dotted #b64426;
   border-radius: 8px;
