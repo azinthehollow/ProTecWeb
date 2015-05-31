@@ -10,13 +10,14 @@
   <link rel="stylesheet" href="stylesheet/myStyle.css">
   <link rel="stylesheet" href="stylesheet/menuFijo.css">
   <link rel="stylesheet" href="stylesheet/index.css">
-  <link rel="stylesheet" href="stylesheet/player.css">
+  <link rel="stylesheet" href="stylesheet/playe.css">
   <script type="text/javascript" src="script/lib/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript" src="script/lib/api.js"></script>
   <script type="text/javascript" src="script/menu.js"></script>
   <script type="text/javascript" src="script/chat.js"></script>
   <script type="text/javascript" src="script/elevator.js"></script>
   <script type="text/javascript" src="script/lib/sdkSounCloud.js"></script>
-  <script type="text/javascript" src="script/player.js"></script>
+  <script type="text/javascript" src="script/wid.js"></script>
 </head>
 
 <body>
@@ -37,41 +38,9 @@
         <p>Okaerinasai a ancobo</p>
         <p>En esta pagina encontraras información relacionada al anime y videojuegos</p>
 
-
       </article>
       <aside id="ContEx">
-        <div id="player_artwork">
-          <a href="javascript:void(0);">
-            <img src="http://placehold.it/200x200" alt="artwork" />
-          </a>
-        </div>
-        <div id="player_track">
-          <div id="player_track_title">
-            <a href="">Track Title</a>
-          </div>
-          <div id="player_track_artist">
-            Artist
-          </div>
-        </div>
-        <div id="player_buttons">
-          <ul>
-            <li>
-              <a href="" id="player_prev">
-                <span class="icon-to-start"></span>
-              </a>
-            </li>
-            <li>
-              <a href="" id="player_play">
-                <span class="icon-play"></span>
-              </a>
-            </li>
-            <li>
-              <a href="" id="player_next">
-                <span class="icon-to-end"></span>
-              </a>
-            </li>
-          </ul>
-        </div>
+        <iframe id="sc-widget" src="https://w.soundcloud.com/player/?url=http://api.soundcloud.com/users/1539950/favorites" width="100%" height="365" scrolling="no" frameborder="no"></iframe>
       </aside>
     </section>
     <!--Contenido-->
