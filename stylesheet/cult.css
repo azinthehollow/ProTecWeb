@@ -1,3 +1,12 @@
+#contenido{
+ background-image: url("../img/x.jpg");
+ background-attachment: fixed;
+   background-position: right bottom;
+   background-repeat: no-repeat;
+   background-size: 25%
+
+}
+
 #ArtOne {
   float: right;
   width: 40%;
