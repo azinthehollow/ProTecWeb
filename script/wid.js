@@ -2,9 +2,13 @@ var iframeElement = document.querySelector('iframe');
 var iframeElementID = iframeElement.id;
 var widget1 = SC.Widget(iframeElement);
 var widget2 = SC.Widget(iframeElementID);
+SC.initialize({
+  client_id: '19af471b669808ca18a25ff81387457e'
+});
 
 (function() {
   var widgetIframe = document.getElementById('sc-widget'),
+
     widget = SC.Widget(widgetIframe);
 
   widget.bind(SC.Widget.Events.READY, function() {
