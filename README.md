@@ -1,5 +1,6 @@
 # ProTecWeb
 Proyecto de tecnologias web
-Usando HTML5, CSS, JavaScript, JQuery y JSON
-Para entrar al sito
+Usando dierentes herramientas vistas en el curso
+Para entrar al sito:
 http://azinthehollow.github.io/ProTecWeb.io
+Recomendacion: usar firefox para una vista mejor
